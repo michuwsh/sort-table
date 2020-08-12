@@ -1,0 +1,38 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+thead {
+   background-color: #000;
+   color: #fff;
+}
+thead td {
+    border-right: 1px solid #FFF;
+}
+thead td:last-child {
+    border-right: 1px solid #000;
+}
+tr, td {
+    border: 1px solid #000;
+    padding: 8px;
+}
+.sort-up, .sort-down {
+    font-family: FontAwesome;
+    position: relative;
+}
+.sort-up:after{
+    content: "\f0de";
+    margin-left: 2rem;
+    position: absolute;
+    top: 12px;
+}
+.sort-down:after{
+    content: "\f0dd";
+    margin-left: 2rem;
+    position: absolute;
+    top: 6px;
+}
